@@ -26,7 +26,7 @@ export default function Footer() {
                                         <i className="bi bi-github"></i>
                                     </a>
                                     <Nav.Item>
-                                        <Nav.Link href="https://github.com/ethanm20/AuthFuture" target="_blank">
+                                        <Nav.Link href="https://github.com/ethanm20/personal-portfolio" target="_blank">
                                             <Button variant="outline-light" style={{borderRadius: '25px'}} className="github-header-outer">
                                                 <i className="bi bi-github"></i> <span className="github-text">Source Code</span>
                                             </Button>
