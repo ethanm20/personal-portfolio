@@ -1,5 +1,8 @@
 import { Container, Row, Col, Button} from 'react-bootstrap';
 
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+
 
 export default function Footer() {
     return (
@@ -22,6 +25,13 @@ export default function Footer() {
                                     <a href="https://github.com/ethanm20" target='_blank' style={{color: '#FFF'}}>
                                         <i className="bi bi-github"></i>
                                     </a>
+                                    <Nav.Item>
+                                        <Nav.Link href="https://github.com/ethanm20/AuthFuture" target="_blank">
+                                            <Button variant="outline-light" style={{borderRadius: '25px'}} className="github-header-outer">
+                                                <i className="bi bi-github"></i> <span className="github-text">Source Code</span>
+                                            </Button>
+                                        </Nav.Link>
+                                    </Nav.Item>
                                 </Col>
                             </Row>
                         </Col>

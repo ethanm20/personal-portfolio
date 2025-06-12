@@ -17,7 +17,7 @@ export function NavigationBar() {
 
     return (
         <>
-            <Navbar variant="dark" sticky="top" expand="lg" style={{width: '100%', top: '0px', zIndex: '30', marginTop:' -49px', height: '50px', backgroundColor: '#111111'}}>
+            <Navbar variant="dark" sticky="top" expand="lg" style={{display: 'none', width: '100%', top: '0px', zIndex: '30', marginTop:' -49px', height: '50px', backgroundColor: '#111111'}}>
                 <Container style={{height: '50px', display: 'flex', flexDirection: 'row'}}>
                     <Navbar.Brand href="/" style={{display: 'flex', width: '105px'}}>Ethan Marlow</Navbar.Brand>
                     <Nav className="me-auto" style={{justifyContent: 'end', flexDirection: 'row', display: 'flex', width: 'calc(100% - 150px)'}}>

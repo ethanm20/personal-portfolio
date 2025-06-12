@@ -1,35 +1,36 @@
 import { Container, Row, Col, ProgressBar } from 'react-bootstrap';
 
-export function Experience() {
-    interface ExperienceElement {
+export function Qualifications() {
+    interface Credential {
         name: string;
-        level?: number; // 0-100 percent
-        location?: string;
+        institution?: string; 
         description?: string;
-        company?: string;
-        logo?: string;
+        location?: string;
+        url?: string;
+        icon?: string;
+
     }
 
-    const experiences: ExperienceElement[] = [
-        { name: 'Honours Research Student', location: 'Sydney, Australia', company: 'University of New South Wales', logo: 'unsw-logo.jpg' },
-        { name: 'Full-Stack Web Developer', location: 'Sydney, Australia', company: 'The Big Smoke Media Group', logo: 'the-big-smoke-logo.jpg' },
-        { name: 'Junior Web Developer', location: 'Sydney, Australia', company: 'The Big Smoke Media Group', logo: 'the-big-smoke-logo.jpg' },
+    const credentials: Credential[] = [
+        { name: 'Bachelor of Science (Computer Science & Engineering) (Honours)', institution: 'University of New South Wales', location: 'Sydney, Australia', icon:'unsw-logo.jpg'},
+        { name: 'The Right to Repair Course', institution: 'The Engineering & Design Institute', location: 'London, United Kingdom', icon:'tedi-london-logo.jpg'},
+        { name: 'Bachelor of Science (Computer Science & Engineering) (Honours)', institution: 'University of New South Wales', location: 'Sydney, Australia', icon:'unsw-logo.jpg'}
     ];
     
     return (
         <>
             <section className="py-5 bg-dark" style={{width: '100%'}}>
                 <Container>
-                    <h2 className="mb-4 text-center fw-bold">Experience</h2>
+                    <h2 className="mb-4 text-center fw-bold">Education</h2>
                     <Container className="justify-content-center" style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
-                        {experiences.map(({ name, location, company, logo }, idx) => (
+                        {credentials.map(({ name, institution, description, location, icon }, idx) => (
                             <Col key={idx} md={6} className="mb-4">
                                 <Row className="align-items-start">
                                     {/* Left: Logo */}
                                     <Col xs="auto">
                                     <img
-                                        src={`/icons/${logo}`}
-                                        alt={company}
+                                        src={`/icons/${icon}`}
+                                        alt={institution}
                                         width="48"
                                         height="48"
                                         style={{ width: '48px', height: '48px', objectFit: 'contain' }}
@@ -39,18 +40,18 @@ export function Experience() {
                                     {/* Right: Text Content */}
                                     <Col>
                                         <div className="text-start">
-                                            <h3 className="mb-1">{company}</h3>
+                                            <h3 className="mb-1">{institution}</h3>
                                             <h6 className="mb-1">{name}</h6>
                                             <h6 className="mb-2">
                                                 <i className="bi bi-geo-alt-fill"></i> {location}
                                             </h6>
+                                            <p className="mb-0">{description}</p>
                                         </div>
                                     </Col>
                                 </Row>
                             </Col>
                         ))}
                     </Container>
-
                 </Container>
             </section>
         </>
