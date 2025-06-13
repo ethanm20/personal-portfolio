@@ -18,7 +18,7 @@ export function Experience() {
     
     return (
         <>
-            <section className="py-5 bg-dark" style={{width: '100%'}}>
+            <section className="py-5 bg-dark" style={{width: '100%'}} id="experience">
                 <Container>
                     <h2 className="mb-4 text-center fw-bold">Experience</h2>
                     <Container className="justify-content-center" style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>

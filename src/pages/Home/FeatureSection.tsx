@@ -4,7 +4,7 @@ export function FeatureSection() {
     return (
         <>
             <section className="text-white py-5" style={{width: '100%', backgroundImage: "linear-gradient(90deg,rgba(61, 61, 110, 1) 0%, rgba(56, 51, 79, 1) 35%, rgba(1, 0, 10, 1) 100%)"}}>
-                <Container>
+                <Container className="py-5">
                     <Row className="align-items-center">
                     <Col md={6}>
                         <h1 className="display-4 fw-bold">Ethan Marlow</h1>

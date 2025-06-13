@@ -35,7 +35,7 @@ export function Skills() {
     
     return (
         <>
-            <section className="py-12 mb-12 bg-dark" style={{width: '100%'}}>
+            <section className="py-4 mb-12 bg-dark" style={{width: '100%'}} id="skills">
                 <Container>
                     <h2 className="mb-4 text-center fw-bold">Skills</h2>
                     <Row style={{justifyContent: 'center'}}>

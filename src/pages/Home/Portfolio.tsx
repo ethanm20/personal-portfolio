@@ -67,7 +67,7 @@ export function Portfolio() {
                                         <div className="text-start">
                                             <h3 className="mb-1">{name}</h3>
                                             <div style={{display: 'flex', flexDirection: 'row', gap: '5px'}}>
-                                            {url && <div style={{border: '1px solid #FFF', borderRadius: '20px', textDecoration: 'none', paddingLeft: '10px', paddingRight: '10px' }} className="d-inline-flex align-items-center justify-content-center text-white"><a href={url} style={{color: '#FFF', textDecoration: 'none', fontSize: '18px'}}><i className="fa-solid fa-globe"></i> Link</a></div>}
+                                            {url && <div style={{border: '1px solid #FFF', borderRadius: '20px', textDecoration: 'none', paddingLeft: '10px', paddingRight: '10px' }} className="d-inline-flex align-items-center justify-content-center text-white"><a href={url} style={{color: '#FFF', textDecoration: 'none', fontSize: '18px'}}><i className="bi bi-link"></i> {url}</a></div>}
                                             {github && <div style={{border: '1px solid #FFF', borderRadius: '20px', textDecoration: 'none', paddingLeft: '10px', paddingRight: '10px' }} className="d-inline-flex align-items-center justify-content-center text-white"><a href={github} style={{color: '#FFF', textDecoration: 'none', fontSize: '18px'}}><i className="fab fa-github"></i> Source Code</a></div>}
                                             </div>
                                             <p className="mb-0" style={{fontSize: '20px'}}>{description}</p>

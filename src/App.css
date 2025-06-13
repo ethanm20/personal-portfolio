@@ -38,11 +38,11 @@
 }
 
 
-.nav-tabs button[aria-selected="false"] {
+#skills .nav-tabs button[aria-selected="false"] {
   color: #FFF !important;
 }
 
-.nav-tabs button, .nav-link:focus, .nav-link:hover{
+#skills .nav-tabs button, .nav-link:focus, .nav-link:hover{
   border: 1px solid #FFF !important;
   /*border-top: none !important;
   border-bottom: none !important;
@@ -51,31 +51,44 @@
   font-size: 16px !important;
 }
 
-.nav-tabs button[aria-selected="false"]:hover {
+#skills .nav-tabs button[aria-selected="false"]:hover {
   color: #000 !important;
   background-color: #FFF !important;
 }
 
-.nav-tabs {
+#skills .nav-tabs {
   width: auto !important;
   border: none !important;
 }
 
-.tab-content {
+#skills .tab-content {
   display: flex !important;
   justify-content: center !important;
 }
 
 
-.nav-tabs .nav-item:first-child .nav-link {
+#skills .nav-tabs .nav-item:first-child .nav-link {
   /* styles for the first <li> */
   border-top-left-radius: 20px !important;
   border-bottom-left-radius: 20px !important;
 }
 
-.nav-tabs .nav-item:last-child .nav-link {
+#skills .nav-tabs .nav-item:last-child .nav-link {
   /* styles for the last <li> */
   border-top-right-radius: 20px !important;
   border-bottom-right-radius: 20px !important;
+}
+
+
+/* Top Navbar */
+
+.navbar.sticky-top .nav-link {
+  border: none !important;
+  font-size: 22px !important;
+}
+
+.navbar.sticky-top .nav-link:hover {
+  border: none !important;
+  font-size: 22px !important; 
 }
 
