@@ -92,3 +92,20 @@
   font-size: 22px !important; 
 }
 
+@media screen and (max-width: 968px) {
+  .navbar.sticky-top #top-nav-inner {
+    flex-direction: column !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    
+  }
+  .navbar.sticky-top, .navbar.sticky-top .container {
+    height: auto !important;
+  }
+  .navbar.sticky-top {
+    margin-top: 0px !important;
+    background-color: #111111 !important;
+    border-bottom: none !important;
+  }
+}
+
