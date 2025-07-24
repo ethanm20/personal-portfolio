@@ -21,24 +21,24 @@ export function Portfolio() {
             icon: 'fa-solid fa-key'
         },
         {
-            name: 'Leveraging AI to Enhance Vulnerability Descriptions',
-            icon: 'bi bi-shield-fill-exclamation',
-            description: 'Prompt Engineering and Chain of Thought techniques are employed to improve the clarity and detail of vulnerability descriptions within a comprehensive vulnerability detection tool project.'
-        },
-        {
             name: 'Room Temperature Detection',
             icon: 'fa-solid fa-temperature-high',
             description: 'Worked in a group project in COMP6733 Internet of Things (IoT) course to predict the temperature of a room using WiFi Channel State Information (CSI). Used technologies including Nexmon CSI utility operating on Raspberry Pi 4 devices, MQTT protocol for communication between devices and Amazon AWS IoT core.'
         },
         {
-            name: 'Accommodation Booking System',
-            icon: 'fa-solid fa-hotel',
-            description: 'As part of the Web Front End Programming course, developed a sample Accommodation Booking System frontend (based off Airbnb) using ReactJS.'
-        },
-        {
             name: 'COVID Contact Tracing Protocol',
             icon: 'fa-solid fa-virus-covid',
             description: 'Worked in a pair to implement a secure & anonymous contact tracing protocol in Python with Encounter IDs stored in a main server using TCP and a k-of-n Shamir Shared Secret way to enable people to see if they are exposed to COVID. Created EncID with other devices over UDP on Bluetooth.'
+        },
+        {
+            name: 'Enhancing Vulnerability Descriptions',
+            icon: 'bi bi-shield-fill-exclamation',
+            description: 'Prompt Engineering and Chain of Thought techniques are employed to improve the clarity and detail of vulnerability descriptions within a comprehensive vulnerability detection tool project.'
+        },
+        {
+            name: 'Accommodation Booking System',
+            icon: 'fa-solid fa-hotel',
+            description: 'As part of the Web Front End Programming course, developed a sample Accommodation Booking System frontend (based off Airbnb) using ReactJS.'
         },
         {
             name: 'WiFi Geolocation Project',

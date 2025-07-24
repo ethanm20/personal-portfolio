@@ -12,9 +12,9 @@ export function Qualifications() {
     }
 
     const credentials: Credential[] = [
-        { name: 'Bachelor of Science (Computer Science & Engineering) (Honours)', institution: 'University of New South Wales', location: 'Sydney, Australia', icon:'unsw-logo.jpg'},
+        { name: 'Bachelor of Science (Computer Science) (2:1 Honours)', institution: 'University of New South Wales', location: 'Sydney, Australia', icon:'unsw-logo.jpg'},
         { name: 'The Right to Repair Course', institution: 'The Engineering & Design Institute', location: 'London, United Kingdom', icon:'tedi-london-logo.jpg'},
-        { name: 'Bachelor of Science (Computer Science & Engineering) (Honours)', institution: 'University of New South Wales', location: 'Sydney, Australia', icon:'unsw-logo.jpg'}
+        { name: 'Bachelor of Science (Computer Science)', institution: 'University of New South Wales', location: 'Sydney, Australia', icon:'unsw-logo.jpg'}
     ];
     
     return (
